@@ -1,0 +1,28 @@
+# Segredos (nunca versionar)
+.env
+.env.*
+!.env.example
+*firebase*adminsdk*.json
+google-services.json
+*.keystore
+*.jks
+
+# Uploads e logs (mantém só as pastas)
+backend/storage/uploads/*
+backend/storage/logs/*
+!backend/storage/uploads/.gitkeep
+!backend/storage/logs/.gitkeep
+
+# Dependências e builds
+node_modules/
+vendor/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+
+# Sistema e editor
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
